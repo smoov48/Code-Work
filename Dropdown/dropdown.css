@@ -1,0 +1,39 @@
+.dropdown button{
+    background-color: rgb(214, 141, 5);
+    border: none;
+    padding: 10px  20px;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .monsters {
+    position: absolute;
+    background-color: hsl(0, 0, 95%);
+    box-shadow: 2px 2px 5px;
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown:hover .monsters {
+    display: block;
+}
+
+
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px  20px;
+    background-color: rgb(194, 166, 114);
+}
+
+.dropdown a:hover {
+    background-color: rgb(214, 141, 5);
+}
+
+

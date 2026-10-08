@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Rajdhani', 'Cascadia Code', monospace;
+}
+
+/* From the Header */
+
+header{
+    background-color:  rgb(68, 20, 158);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+   
+
+}
+
+.title{
+    display: flex;
+    justify-content: right;
+    font-weight:900;
+
+    
+}
+
+li{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+     gap: -100px;
+    
+}
+
+a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+    gap: -100px;
+    transition: all 0.3s ease;
+   
+}
+
+a:hover{
+    color: #a14900;
+    transition: scale(1.10);
+}
+
+/* This is from the Section 1  */
+
+.hero{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.hero-title{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 80px;
+    display: flex;
+    font-weight: 900px;
+    
+}
+
+.hero-text{
+    display: flex;
+    margin-top: -100px;
+    width:800px;
+    margin: 25px;
+    font-size:medium;
+    padding: 10px;
+    
+}
+
+.under-title{
+    margin-top: -30px;
+    margin-bottom: -25px;
+    display: flex;
+    margin-left: 120px ;
+    background-color: rgb(19, 16, 20);
+    color: white;
+  
+}
+
+.info{
+    color: rgb(0, 0, 0);
+    background-color: rgb(68, 20, 158);
+    display: flex;
+    margin-left:125px;
+    font-size: large;
+    margin-top: -15px;
+    font-family:  'Rajdhani', 'Cascadia Code', monospace;
+    border: 10px;
+    
+}
+
+.info:hover{
+    background-color: rgba(91, 20, 158, 0.637);
+    transition: all 0.25s ease-in-out;
+    
+}
+
+.activ-btn{
+    
+    margin: 25px;
+    padding: 10px;
+    font-family: 'Rajdhani', 'Cascadia Code', monospace;
+    font-size: medium;
+}
+
+
+
+
+

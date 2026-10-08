@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(74, 74, 247);
+    padding: 8px 20px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   padding: 10px;
+}
+
+.title{
+   color: white;
+}
+
+nav{
+    gap: 4px;
+}
+
+.welcoming{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(74, 74, 247);
+    border-color: rgb(74, 74, 247);
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+img{
+    padding: 10px;
+    border-radius: 15px;
+    width: 450px;
+}
+
+.hero{
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    width: 450px;
+    padding: 10px;
+}
+
+.secondhero{
+    text-align: center;
+}
+
+
+
+

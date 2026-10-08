@@ -1,0 +1,15 @@
+body{
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    
+}
+
+.title{
+    text-align: center;
+    
+}
+
+#count{
+    text-align: center;
+}
